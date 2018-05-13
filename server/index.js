@@ -5,7 +5,7 @@ const app = express();
 test("logging test");
 
 app.get("/test", function(req, res, next) {
-  res.send("TESTING API");
+  res.send({ express: "testing api" });
 });
 
 app.listen(5000, err => {
