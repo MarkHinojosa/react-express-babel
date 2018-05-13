@@ -2,10 +2,10 @@ import test from "./test";
 import express from "express";
 
 const app = express();
-test("threes");
+test("logging test");
 
 app.get("/test", function(req, res, next) {
-  res.send("TESTING");
+  res.send("TESTING API");
 });
 
 app.listen(5000, err => {
