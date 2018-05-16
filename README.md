@@ -19,9 +19,17 @@ Allows you to run multiple commands concurrently.
 
 Available Root Commands:
 
-* "NPM run server" - runs API with Nodemon & Babel
+* "npm run devServer" - runs API with Nodemon & Babel
 
-* "NPM run dev" - runs API server & client server concurrently with nodemon & Babel
+* "npm run server" - runs API with Node & Babel
+
+* "npm run clean" - removes the dist directory which is where compiled production code is stored
+
+- "npm run build" - removes dist, then recreates dist and places compiled code
+
+* "npm run dev" - runs API developement server & client server concurrently with nodemon & Babel
+
+* "npm run production" - compiles code in dist directory, runs production API server & client server concurrently with node
 
 resources:
 
